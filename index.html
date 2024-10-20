@@ -3,5 +3,18 @@
 <body>
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
+<script type="text/javascript">
+    (function(w, d, x, id){
+      s=d.createElement('script');
+      s.src='https://d2zasqxhmd6ne4.cloudfront.net/amazon-connect-chat-interface-client.js';
+      s.async=1;
+      s.id=id;
+      d.getElementsByTagName('head')[0].appendChild(s);
+      w[x] =  w[x] || function() { (w[x].ac = w[x].ac || []).push(arguments) };
+    })(window, document, 'amazon_connect', '531a4ee9-1a09-40cf-8f05-a14770b88dc6');
+    amazon_connect('styles', { iconType: 'CHAT_VOICE', openChat: { color: '#ffffff', backgroundColor: '#123456' }, closeChat: { color: '#ffffff', backgroundColor: '#123456'} });
+    amazon_connect('snippetId', 'QVFJREFIaCtFalN0ZDVNdVlGRUhSSWxuYkZIVi9vOWJuK3J1RHFLMnREVloybXpFTVFHSVBDLzNVZjcvS2NlNjBqM2E5cVNXQUFBQWJqQnNCZ2txaGtpRzl3MEJCd2FnWHpCZEFnRUFNRmdHQ1NxR1NJYjNEUUVIQVRBZUJnbGdoa2dCWlFNRUFTNHdFUVFNQ2RRSzNESXU1TjQzVXBIVUFnRVFnQ3ZwSm80QTAxSlloNHJkN2lERjI4dmZjL3NkNjVEZC9LT2Z0YmF0QVZOTktIZUlVVkkrTkg1ZWIxcFU6OjNvR2FvNDdaa0NjcHpUZFJ2SHQ5VXBPaU1BeFJ3dENDMkZoZGpuM21qbkhYSlp3dUVWb0dXU004cmxOK3QzNjVyR1hvdTZsMXI3YjBqWjdlSGdEdWhpUlFML3JNOVZEbFpuODMyV3RVb1UvdkpGVUdiY3B3dVBSMGxrWDZRT0phcVkwT002WE1oaFkySUFwekZMYkZYZTgwZjdFdkhSbz0=');
+    amazon_connect('supportedMessagingContentTypes', [ 'text/plain', 'text/markdown', 'application/vnd.amazonaws.connect.message.interactive', 'application/vnd.amazonaws.connect.message.interactive.response' ]);
+  </script>
 </body>
 </html>
